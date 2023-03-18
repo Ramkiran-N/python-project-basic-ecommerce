@@ -1,0 +1,16 @@
+{% extends 'shop/base.html' %}
+{% block body %}
+<div class="container details">
+    <div class="row mt-5">
+        <div class="col-md-6">
+            <img src="{{products.image}}" alt="" srcset="">
+        </div>
+        <div class="col-md-6">
+            <h5>{{products.title}}</h5>
+            <p>Price: {{products.price}}</p>
+            <p>Discount Price: {{products.discount_price}}</p>
+            <p>{{products.description}}</p>
+        </div>
+    </div>
+</div>
+{% endblock %}

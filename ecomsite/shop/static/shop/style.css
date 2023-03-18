@@ -1,0 +1,21 @@
+img.card-img-top {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+}
+.card-text{
+    color: green;
+}
+.details img{
+    height: 250px;
+}
+a.navbar-brand.ml-3 {
+    padding-left: 40px;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    padding: 12px;
+}
+span.badge.badge-primary.badge-pill {
+    color: white;
+    background: #2d7aff;
+}
